@@ -10,3 +10,7 @@ For image information, the xml files contains sources, size, name, etc. of image
 For single instance annotations, the xml files contains classes names, ground truth bounding boxes, attributes, etc. 
 
 For inter-instance annotations, the xml files containts relation data, subject id and object id. 
+
+To re-implement performance of scene graph generation methods in our dataset. You need to convert the data to fit the different dataloaders in methods.
+
+For example, in neural-motifs, you should allocate relationships to labeled classes, and change the visual_genome.py file. 
